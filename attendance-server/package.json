@@ -1,0 +1,10 @@
+{
+  "name": "attendance-server",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Shared OTP + attendance sync server for the tuition portals demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

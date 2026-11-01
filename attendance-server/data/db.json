@@ -1,0 +1,89 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "sarvesh",
+      "nameTa": "sarvesh",
+      "roll": "S1",
+      "batch": "Evening",
+      "batchId": 2,
+      "contact": "",
+      "email": "sarvesh@kkta.ac.in"
+    },
+    {
+      "id": 1793461931790,
+      "name": "ajay",
+      "nameTa": "ajay",
+      "roll": "S2",
+      "batch": "Evening",
+      "batchId": 2,
+      "contact": "",
+      "email": "ajay@kkta.ac.in"
+    }
+  ],
+  "records": [
+    {
+      "batchId": 2,
+      "studentId": 1,
+      "studentName": "sarvesh",
+      "date": "2026-10-31",
+      "status": "present",
+      "method": "otp",
+      "ts": "2026-10-31T15:46:33.126Z"
+    },
+    {
+      "batchId": 2,
+      "studentId": 1,
+      "studentName": "",
+      "date": "2026-10-31",
+      "status": "present",
+      "method": "manual",
+      "ts": "2026-10-31T15:51:37.331Z"
+    },
+    {
+      "batchId": 2,
+      "studentId": 1793461931790,
+      "studentName": "ajay",
+      "date": "2026-10-31",
+      "status": "present",
+      "method": "otp",
+      "ts": "2026-10-31T15:55:23.834Z"
+    }
+  ],
+  "announcements": [],
+  "assignments": [],
+  "timetable": [],
+  "sessions": [
+    [
+      "1:2026-10-31",
+      {
+        "batchId": 1,
+        "date": "2026-10-31",
+        "source": "otp"
+      }
+    ],
+    [
+      "2:2026-10-31",
+      {
+        "batchId": 2,
+        "date": "2026-10-31",
+        "source": "manual"
+      }
+    ]
+  ],
+  "usedOtpKeys": [
+    "2:2026-10-31:443045:1",
+    "2:2026-10-31:350587:1793461931790"
+  ],
+  "activeOtps": [
+    [
+      "2:350587",
+      {
+        "code": "350587",
+        "batchId": 2,
+        "createdAt": 1793462106473,
+        "expiresAt": 1793462286473
+      }
+    ]
+  ]
+}
